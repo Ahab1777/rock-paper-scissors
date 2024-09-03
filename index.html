@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="/engine.js"></script>
+    <script defer src="/engine.js"></script>
 </head>
 <body>
-    
+    <div>
+        <div class="buttonContainer">
+            <button id="rock" value="rock">Rock</button>
+            <button id="paper" value="paper">Paper</button>
+            <button id="scissors" value="scissors">Scissors</button>
+        </div>
+        <p>Result: <span id="roundResult"></span></p>
+        <div><p>Human <span id="humanSpanScore"></span></p></div>
+        <div><p>Computer <span id="computerSpanScore"></span></p></div>
+    </div>
 </body>
 </html>
